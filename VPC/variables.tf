@@ -14,13 +14,13 @@ variable "subnets_cidr" {
 }
 variable "availability_zones" {
   type    = list(string)
-  default = ["ap-south-1a", "ap-south-1b"]
+  default = ["ap-south-1a", "ap-south-1b", ap-south-1c]
 }
 variable "ubuntuami" {
-  default = "ami-0b44050b2d893d5f7"
+  default = "ami-0f5ee92e2d63afc18"
 }
 variable "redhatami" {
-  default = "ami-052c08d70def0ac62"
+  default = "ami-008b85aa3ff5c1b02"
 }
 variable "key_name" {
   default = "devops"
